@@ -1,0 +1,10 @@
+:root {
+    --primary-color:#004aad;
+    
+}
+
+body {
+    background-image: url(/img/back.JPG);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
