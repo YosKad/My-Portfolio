@@ -1,10 +1,64 @@
+/* -- css reset -- */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+}
+
+/* -- end css reset -- */
+
+
+
+/* -- default values to css -- */
+
 :root {
     --primary-color:#004aad;
     
 }
 
+/* -- end default values to css -- */
+
+
+/* -- add background img -- */
+
 body {
     background-image: url(/img/back.JPG);
     background-size: cover;
-    font-family: 'Montserrat', sans-serif;
 }
+
+/* h1 {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+} */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    overflow-x: scroll;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(57, 60, 248, 0.482);
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+  }
