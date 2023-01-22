@@ -33,7 +33,7 @@ body {
 /* -- add background img -- */
 
 body {
-    background-image: url(/img/back.JPG);
+    background-image: url(img/back.JPG);
     background-size: cover;
 }
 
