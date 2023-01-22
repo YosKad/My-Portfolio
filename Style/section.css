@@ -2,10 +2,9 @@ section {
     width: 100%;
     height: 100vh;
     position: relative;
-    background-image: url(https://img.freepik.com/free-vector/abstract-black-texture-background-hexagon_206725-413.jpg?w=1380&t=st=1674413905~exp=1674414505~hmac=7d9914e652f6fa5d77d1d7a311ea56aba8e3a6a2b74ff41730db5a6c2240e4bf);
+    background-color: rgba(0, 0, 0, 0.888);
     background-size: cover;
     float: left;
-    overflow: hidden;
 }
 
 
